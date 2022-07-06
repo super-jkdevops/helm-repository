@@ -29,6 +29,6 @@ jobs:
         uses: helm/chart-releaser-action@v1.4.0
         with:
           charts_dir: charts
-          charts_repo_url: https://devopsapp84.github.io/helm-repository/
+          charts_repo_url: https://super-jkdevops.github.io/helm-repository/
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
