@@ -1,0 +1,61 @@
+apiVersion: v1
+entries:
+  istio-base:
+  - apiVersion: v1
+    appVersion: 1.14.1
+    created: "2022-09-21T08:16:40.044920282Z"
+    description: Helm chart for deploying Istio cluster resources and CRDs (super-jkdevops)
+    digest: 1afb9c71dfb708c7938185a9d77e489ee791ad896c6bbb1c7f93c6c8b3640efd
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    maintainers:
+    - email: janusz.kujawa@gmail.com
+      name: Janusz Kujawa
+    name: istio-base
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://github.com/super-jkdevops/helm-repository/releases/download/istio-base-1.14.1/istio-base-1.14.1.tgz
+    version: 1.14.1
+  istio-ingress:
+  - apiVersion: v1
+    appVersion: 1.14.1
+    created: "2022-09-21T08:16:40.414148535Z"
+    description: Helm chart for deploying Istio gateways (super-jkdevops)
+    digest: 56f503b876d34a3c39868a9d8271501a9e6e1e906ec5008c8a7dcff22f8b47bd
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - ingressgateway
+    - gateways
+    maintainers:
+    - email: janusz.kujawa@gmail.com
+      name: Janusz Kujawa
+    name: istio-ingress
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://github.com/super-jkdevops/helm-repository/releases/download/istio-ingress-1.14.1/istio-ingress-1.14.1.tgz
+    version: 1.14.1
+  istiod:
+  - apiVersion: v1
+    appVersion: 1.14.1
+    created: "2022-09-21T08:16:40.685800168Z"
+    description: Helm chart for istio control plane (super-jkdevops)
+    digest: daccb33afe8d9946f6c2862ff83eca88d81af8312697a4e8ab72c30cb014d2ed
+    icon: https://istio.io/latest/favicons/android-192x192.png
+    keywords:
+    - istio
+    - istiod
+    - istio-discovery
+    maintainers:
+    - email: janusz.kujawa@gmail.com
+      name: Janusz Kujawa
+    name: istiod
+    sources:
+    - http://github.com/istio/istio
+    urls:
+    - https://github.com/super-jkdevops/helm-repository/releases/download/istiod-1.14.1/istiod-1.14.1.tgz
+    version: 1.14.1
+generated: "2022-09-21T08:16:40.685839068Z"
