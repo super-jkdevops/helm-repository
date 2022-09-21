@@ -10,7 +10,7 @@ Helm's [documentation](https://helm.sh/docs) to get started.
 Once Helm has been set up correctly, add the repo as follows:
 
 ```console
-helm repo add selfrepo https://devopsapp84.github.io/helm-repository
+helm repo add selfrepo https://super-jkdevops.github.io/helm-repository
 ```
 
 Refresh packages within index yaml:
