@@ -1,10 +1,10 @@
 apiVersion: v2
 description: A private Helm chart for Kubernetes test application flask APP01
 name: app-web-server
-version: 0.0.2
-appVersion: 0.0.2
+version: 0.0.3
+appVersion: 0.0.3
 maintainers:
   - name: Janusz Kujawa
     email: janusz.kujawa@gmail.com
 keywords:
-  - sample flask application
+  - web server nginx
