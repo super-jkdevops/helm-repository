@@ -2,6 +2,18 @@ apiVersion: v1
 entries:
   app-web-server:
   - apiVersion: v2
+    appVersion: 0.0.3
+    created: "2022-11-22T22:26:10.24667535Z"
+    description: Sample Application with base functionality webserver
+    digest: eb6ed1a9f3766692df5fe2a6dc84732534a2216805dbf394260d15c37860c258
+    maintainers:
+    - email: janusz.kujawa@gmail.com
+      name: Janusz Kujawa
+    name: app-web-server
+    urls:
+    - https://github.com/super-jkdevops/helm-repository/releases/download/app-web-server-0.0.3/app-web-server-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
     appVersion: 0.0.2
     created: "2022-11-22T22:22:16.222472025Z"
     description: Sample Application with base functionality webserver
@@ -98,4 +110,4 @@ entries:
     urls:
     - https://github.com/super-jkdevops/helm-repository/releases/download/istiod-1.14.1/istiod-1.14.1.tgz
     version: 1.14.1
-generated: "2022-11-22T22:22:16.222510426Z"
+generated: "2022-11-22T22:26:10.24669315Z"
