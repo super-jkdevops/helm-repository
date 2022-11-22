@@ -1,5 +1,20 @@
 apiVersion: v1
 entries:
+  app01:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-11-22T16:45:13.680126965Z"
+    description: A private Helm chart for Kubernetes test application flask APP01
+    digest: 75c6c7aea6ab79ca829a7c5caa2977472ed177bbd82bf5303a971634d176f956
+    keywords:
+    - sample flask application
+    maintainers:
+    - email: janusz.kujawa@gmail.com
+      name: Janusz Kujawa
+    name: app01
+    urls:
+    - https://github.com/super-jkdevops/helm-repository/releases/download/app01-0.0.4/app01-0.0.4.tgz
+    version: 0.0.4
   istio-base:
   - apiVersion: v1
     appVersion: 1.14.1
@@ -58,4 +73,4 @@ entries:
     urls:
     - https://github.com/super-jkdevops/helm-repository/releases/download/istiod-1.14.1/istiod-1.14.1.tgz
     version: 1.14.1
-generated: "2022-09-21T08:16:40.685839068Z"
+generated: "2022-11-22T16:45:14.267602047Z"
