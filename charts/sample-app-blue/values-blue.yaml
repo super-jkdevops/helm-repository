@@ -1,0 +1,4 @@
+app:
+  name: blue
+namespace: sample-apps
+replicaCount: 2

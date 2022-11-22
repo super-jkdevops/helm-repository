@@ -1,0 +1,6 @@
+apiVersion: v2
+name: sample-app-library
+description: Library that contains base deployment
+type: library
+version: 0.0.1
+

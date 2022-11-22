@@ -1,0 +1,10 @@
+apiVersion: v2
+description: A private Helm chart for Kubernetes test application flask APP01
+name: app01
+version: 0.0.4
+appVersion: 0.0.1
+maintainers:
+  - name: Janusz Kujawa
+    email: janusz.kujawa@gmail.com
+keywords:
+  - sample flask application
