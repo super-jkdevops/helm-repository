@@ -6,8 +6,8 @@ replicaCount: 1
 
 image:
   pullPolicy: IfNotPresent
-  hub: ghcr.io
-  repository: devopsapp84/sample-apps/app01
+  hub: docker.io
+  repository: nginx
   tag: latest
 imagePullSecrets: []
 nameOverride: ""
